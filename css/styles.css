@@ -87,3 +87,33 @@ p {
 .container h2 {
   text-align: left;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+   
+  }
+
+  .container h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .email-link {
+    font-size: 22px;
+  }
+}
